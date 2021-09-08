@@ -2,9 +2,11 @@
 
 #### 介绍
 二阶段苏宁项目开发
-
+1.第一点要求是:原生JS,HTML5,CSS3,JQuery,第三方插件如swper,gulp,git,sass等！
+2.最少完成六个页面，包括首页，注册页，登录页，列表页，详情页，购物车页面。
+3.首页的布局和效果要高保真，其他页面的布局和样式不作要求。
+4.后台数据库两种方式，第一种是实际项目开发时的一种情况，给前端程序员（我们）提供后台接口，第二种，结合json-server及axios模拟后台接口。
 #### 软件架构
-软件架构说明
 
 
 #### 安装教程
@@ -14,10 +16,22 @@
 3.  xxxx
 
 #### 使用说明
+使用前先运行 npm i 安装依赖包
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+Git使用                                                  
+在命名行中定义两个全局变量，一个邮箱，一个name 上传到码云的时候会用到，命令如下：
+git config --global user.email "jmggwu@163.com"
+git config --global user.name “username”
+1.在项目或文件夹中打开git bash
+2. 输入初始化命令 git init 
+3. 输入要链接到码云的地址 git remote add origin 地址
+4.获取文件：
+拉取码云上的所有文件到项目中来，git pull origin master
+上传文件： 
+（1在命令行中继续输入代码执行 git add . (add空格后有个点别忘了) 
+（2 添加注释，来说明自己为什么要上传，方便以后自己查阅 git commit -m “第一次上传”
+（3 提交到码云上面 git push origin master
+ 
 
 #### 参与贡献
 
@@ -27,11 +41,6 @@
 4.  新建 Pull Request
 
 
-#### 特技
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+
+
