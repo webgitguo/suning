@@ -1,0 +1,60 @@
+*{margin: 0;padding: 0;}
+ul{list-style: none;}
+img{display: block;}
+a{text-decoration: none;} 
+/* 阿里矢量图样式*/
+.icon {width: 1.5em; height: 1.5em;vertical-align: -0.15em;fill: currentColor;overflow: hidden;}
+.suning{width: 180px; height: 55px;}
+.gouwuche{color: #FAA603;}
+/* nav导航*/
+#nav{background-color:#F5F5F5 ;}
+.layui-nav{background-color: #F5F5F5;height:35px; .layui-nav-item a{color: black;padding: 0 17px 0 10px};}
+.layui-nav *{font-size: 10px;}
+.layui-nav .layui-nav-item {line-height: 30px;}
+.layui-nav-span{display: inline-block;background-color:#FF6600;border-bottom-left-radius:6px;border-top-left-radius:6px;}
+.layui-nav-span1{display: inline-block;background-color:#Fff;border-bottom-right-radius:6px;border-top-right-radius: 6px;}
+.layui-nav .layui-nav-item a:hover, .layui-nav .layui-this a{color: #FAA603;}
+.layui-nav .layui-nav-child-div{width: 900px;}
+.layui-nav-child-div .layui-nav-child-1{float: left;width: 90px;border-right: 1px solid #eee;padding-left: 20px;}
+.layui-nav-child div{width: 180px;}
+.layui-nav-bar{z-index: -1;}
+.layui-nav-child-1{float: left;width: 80px;}
+.nav-left{float: left;padding: 0;}
+.nav-right{float: left;padding: 0;}
+.search .layui-col-md3{padding-top: 30px;}
+.search .layui-col-md7{margin-top: 30px;}
+.search-div{position: relative; height:35px ; width: 395px; padding-left: 28px;border-radius:12px 0 0 12px ;border: 2px solid #ff8000;}
+.sousuo{position:absolute; left: 5px;top: 6px; color: #ccc;}
+.search-text{width: 390px;height: 33px;border: 0;}
+.search-btn{position: absolute;top: -2px; width: 121px;height: 39px;color: #fff;font-weight: 600; font-size: 18px; background: #ff8000;border: 0; border-bottom-right-radius:12px;border-top-right-radius: 12px;}
+.search-title{margin-top: 10px;}
+.layui-breadcrumb a{font-size: 12px;}
+.layui-breadcrumb a:hover{color: #FAA603;}
+.nav-title{height: 38px;width: 100%; background: #fff;margin-top: 40px;}
+.nav-title .layui-col-md8{padding-left: 100px;a{font-size: 14px;font-weight: 600;}}
+.layui-breadcrumb a{color: black!important;}
+.nav-title img{display: inline; height: 33px;width: 95px;}
+.nav-title-a{position: relative;}
+.layui-breadcrumb  a:hover{color: #FAA603!important;}
+.hot{position: absolute;top:-12px;right: -15px;}
+/*content*/
+.layui-carousel>[carousel-item]{width: 60%;margin-left: 280px;}
+.layui-carousel-arrow{margin-left: 264px;margin-right: 275px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
