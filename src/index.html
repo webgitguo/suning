@@ -12,11 +12,11 @@
 
     <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
    
-    <script src="//at.alicdn.com/t/font_2804641_ll58inv92mo.js"></script>
+    <script src="//at.alicdn.com/t/font_2804641_u619lupq2d.js"></script>
     <script src="./js/index.js"></script>
     
     <link rel="stylesheet" href="css/index.css">
-  
+    <link rel="stylesheet" href="./css/commonFoot.css">
 </head>
 <body>
     <div class="main">
@@ -134,9 +134,6 @@
                                 </dl>
                             </li>
                             <li class="layui-nav-item"><a href=""><span class="layui-nav-span">普通版</span><span class="layui-nav-span1">关怀版</span></a>
-                                <dl class="layui-nav-child">
-                                    
-                                </dl>
                             </li>
                             <li class="layui-nav-item"><a href=""><svg class="icon dizhi" aria-hidden="true">
                                 <use xlink:href="#icon-dizhi"></use>
@@ -259,14 +256,13 @@
               </div>
            </div> 
         </div>
-        <div class="foot"></div>
-            
-            
-        
-        
+        <div id="foot">
+        </div>
+             
         
     </div> 
     <script>
+        $("#foot").load("./commonFoot.html");
         layui.use('carousel', function(){
           var carousel = layui.carousel;
           //建造实例

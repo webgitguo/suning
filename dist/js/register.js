@@ -1,0 +1,1 @@
+"use strict";$(function(){$("#inpBtn").click(function(){var t=60;console.log(1);var n=setInterval(function(){0==t?($("#inpBtn").text("重新获取"),t=60,clearTimeout(n)):($("#inpBtn").text(t+"s后重新获取"),t--)},1e3)})});

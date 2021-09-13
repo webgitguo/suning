@@ -3,12 +3,18 @@
 	<head>
 		<meta charset="utf-8">
 		<title>苏宁易购</title>	
+		<script src="//at.alicdn.com/t/font_2804641_u619lupq2d.js"></script>
 		<link rel="stylesheet" href="./css/register.css">
+		<link rel="stylesheet" href="./css/commonFoot.css">
+		<script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+		<script src="js/register.js"></script>
 	</head>
 	<body>
 		<div class="big">
 			<div class="title">
-				<a href="https://www.suning.com/" class="logo"><img src="img/logo.png" height="72px"></a>
+				<a href="https://www.suning.com/" class="logo"> <svg class="icon suning" aria-hidden="true">
+					<use xlink:href="#icon-suning"></use>
+				</svg></a>
 				<a href="https://www.suning.com/" class="login">我已经注册，马上登录></a>
 				<div class="text">
 					欢迎注册
@@ -19,13 +25,15 @@
 				<div class="input">
 					<div class="liwu">	
 						
-							<img src="img/礼物.png" class="liwu"/>
+						<svg class="icon liwu" aria-hidden="true">
+							<use xlink:href="#icon-liwu"></use>
+						</svg>
 						
 						<div class="text2"></div>
 						注册领<strong style="color: #ff4400;">199</strong>元大礼包
 					</div>
 					<br/>
-					<form action="so.do" method="post">
+					<form action="" method="post">
 						<div class="phone">
 						 <label class="head">手机号</label>
 						 <div class="phone_1">
@@ -38,7 +46,7 @@
 						 							 <input type="text" class="phone" placeholder="请输入手机验证码"/>
 						 </div>
 						 <div class="phone_3">
-						 							 <a href="" class="code">获取短信验证码</a>
+						 							 <a href="#" class="code" id="inpBtn">获取短信验证码</a>
 						 </div>
 						 </div>
 						 <div class="phone">
@@ -50,61 +58,17 @@
 						 <div class="submit">
 						 	<input type="submit" value="提交注册" class="submit"/>
 						 </div>
-						<div class="qiye">
+						<!-- <div class="qiye">
 							<a href="https://reg.suning.com/company.do" class="qiye"><img src="img/楼房-大厦.png" class="home"> 企业用户注册></a>
-						</div>
+						</div> -->
 					</form>
 				</div>
-				
 			</div>
-			<div class="list1">
-				<p class="list">
-								<a href="" class="list">苏宁	互联&nbsp;<span>|</span>&nbsp;苏宁金融&nbsp;<span>|</span>&nbsp;苏宁支付&nbsp;<span>|</span>&nbsp;PP视频&nbsp;<span>|</span>&nbsp;红孩子&nbsp;<span>|</span>
-								&nbsp;苏宁物流&nbsp;<span>|</span>&nbsp;手机苏宁&nbsp;<span>|</span>&nbsp;零售云&nbsp;<span>|</span>&nbsp;苏宁云&nbsp;<span>|</span>&nbsp;知识产权举报&nbsp;<span>|</span>&nbsp;投资者关系&nbsp;<span>|</span>&nbsp;苏宁智能
-								</a>
-							</p>
-							<p class="list">
-								<a href="" class="list">联系我们&nbsp;<span>|</span>&nbsp;诚聘英才&nbsp;<span>|</span>&nbsp;合作招商&nbsp;
-								<span>|</span>&nbsp;广告平台&nbsp;<span>|</span>&nbsp;苏宁联盟&nbsp;<span>|</span>
-								&nbsp;苏宁招标&nbsp;<span>|</span>&nbsp;友情链接&nbsp;<span>|</span>&nbsp;隐私政策&nbsp;
-								<span>|</span>&nbsp;用户体验提升计划&nbsp;<span>|</span>&nbsp;股东会员认证</a>
-							</p>
-							<p class="list2">
-								<a>Copyright© 2002-2020，苏宁易购集团股份有限公司版权所有&nbsp;<span>|</span>&nbsp;
-								<img src="img/国徽.png" width="18px" height="18px" align="center"/>&nbsp苏公网安备 32010202010078号
-								&nbsp;<span>|</span>&nbsp;苏ICP备10207551号-4
-								</a>
-							</p>
-							<p class="list2">
-								<a>
-									合字B2-20180025&nbsp;<span>|</span>&nbsp;合字A1.B1.B2-20180017&nbsp;<span>|</span>&nbsp;
-									出版物经营许可证新出发苏批字第A-243号&nbsp;<span>|</span>&nbsp;互联网药品信息服务资格证书（苏）-非经营性-2016-0005
-								</a>
-							</p>
-							<p class="list2">
-								<a>
-									经营证照&nbsp;<span>|</span>&nbsp;网络文化经营许可证：苏网文〔2018〕10580-203号
-									&nbsp;<span>|</span>&nbsp;互联网违法和不良信息举报邮箱：kfpt-yy@cnsuning.com&nbsp;<span>|</span>&nbsp;
-									举报电话：02566996699-865948
-								</a>
-							</p>
-							<p class="list2">
-								<a>
-									医疗器械网络交易服务第三方平台备案凭证-（苏）网械平台备字（2018）第00052号
-								</a>
-								
-							</p>
-							<p class="list2">
-								<a>
-									本网站直接或间接向消费者推销商品或者服务的商业宣传均属于&nbsp;"广告"&nbsp; （包装及参数、售后保障等商品信息除外）
-								</a>
-							</p>
-							<p>
-								<a>
-									<img src="" />
-								</a>
-							</p>
+			<div id="foot">
 			</div>
 		</div>
+		<script>
+            $("#foot").load("./commonFoot.html");
+        </script>
 	</body>
     </html>

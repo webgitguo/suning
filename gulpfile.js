@@ -20,6 +20,16 @@ gulp.task("server", done => {
 	console.log('hello gulp!');
 	done();
 })  */
+  gulp.task("js",done=>{
+    gulp.src("src/js/*.js")
+      .pipe(babel({
+          presets:["@babel/env"]
+      }))
+      .pipe(uglify())
+      .pipe(gulp.dest("dist/js"))
+      .pipe(connect.reload())
+      done()
+  })
 gulp.task("html", done => {
     gulp.src("src/*.html").pipe(gulp.dest("dist")).pipe(connect.reload());
     done();
@@ -37,10 +47,10 @@ gulp.task("sass", done => {
   gulp.task("watch", done => {
     gulp.watch("src/*.html", gulp.series("html"));
     gulp.watch("src/sass/*.scss", gulp.series("sass"));
+    gulp.watch("src/js/*.js", gulp.series("js"));
     done();
   });
 
-gulp.task("default", gulp.series("watch","server"));
+gulp.task("default", gulp.series("watch","server","js"));
 
 
-         // 定义指令（暴露模块）
